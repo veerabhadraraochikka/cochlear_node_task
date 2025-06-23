@@ -1,0 +1,26 @@
+{
+  "name": "cochlear-devops-task",
+  "version": "1.0.0",
+  "description": "For DevOps test",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "prebuild": "rimraf dist",
+    "serve": "nodemon",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.10",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

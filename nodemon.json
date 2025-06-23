@@ -1,0 +1,19 @@
+{
+    "watch": [
+        "src"
+    ],
+    "ext": "ts,js",
+    "ignore": [
+        "src/**/*.spec.ts",
+        "src/**/*.test.ts"
+    ],
+    "execMap": {
+        "ts": "ts-node"
+    },
+    "env": {
+        "NODE_ENV": "development"
+    },
+    "restartable": "rs",
+    "verbose": true,
+    "exec": "ts-node src/index.ts"
+}

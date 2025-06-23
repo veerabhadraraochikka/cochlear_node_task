@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.DS_Store
+infra_scripts/.terraform
+infra_scripts/.terraform.lock.hcl
+infra_scripts/terraform.tfstate
+infra_scripts/terraform.tfstate.backup
+infra_scripts/terraform.tfvars
